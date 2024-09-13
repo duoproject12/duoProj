@@ -1,0 +1,219 @@
+/* Bank design */
+body {
+    background-image: url(https://img.freepik.com/free-vector/abstract-light-shapes-geometric-background-business-advertising_1017-42845.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+}
+.sidebar {
+    width: 95px;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidebar #logo {
+    font-size: 45px;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+
+.sidebar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 25px 0;
+    font-size: 20px;
+}
+
+.main-content {
+    margin-left: 80px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.header .balance {
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    height: 200px;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 8%;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 27%;
+    text-align: start;
+    position: relative;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 20px; 
+}
+
+.card p {
+    font-size: 32px; 
+    margin: 10px 0;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+
+}
+
+.transaction-content {
+    display: flex;
+}
+
+.transaction-content div {
+    position: relative;
+    right: 15%;
+    width: 375px;
+    margin-right: 4%;
+    padding: 10px;
+    background-color: #b4aaaa00;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100%;}
+
+.transaction-content input {
+    width: 80%;
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 5%;
+    margin-top: -15%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.transaction-content button {
+    width: 85%;
+    padding: 12px;
+    font-size: 16px;
+    margin-top: 8%;
+    background-color: rgb(63, 63, 252);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.transaction-content button:hover {
+    background-color: rgb(50, 50, 200);
+}
+
+
+.transaction-content h3 {
+    margin-top: 3%;
+    font-size: 25px; 
+}
+
+#creditCard {
+    width: 430px;    
+    margin-right: 10%;
+}
+
+.card i {
+    font-size: 75px; 
+    margin-left: 10px;
+    position: absolute;
+    left: 65%;
+    bottom: 35%;
+}
+#imgDiv {
+    height: 10%;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: -5%;
+}
+#card {
+    padding-left: 2.5px;
+}
+
+/* dropdown */
+
+.dropdown {
+    position: relative;
+    width: 85%;
+}
+
+.dropdown-toggle {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 25px 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #8d8b8b2d;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.dropdown-menu a:hover {
+    background-color: #575757;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown i {
+    margin-top: 20px;
+    margin-left: 27px;
+}
+
+
+
+

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>User Login</h1>
+      <form id="loginForm">
+        
+        <div>Email or Phone :</div>
+        <input type="text" id="email"  autocomplete="off" />
+        <div id="email_error">Email Contain at least 8 characters</div>
+
+        <div>Password :</div>
+        <input type="password" id="password"/>
+        <div id="pass_error">Passowrd contain at least 8 characters</div>
+
+        <div class="checkbox-field">
+          <input type="checkbox" id="checkbox"  />
+          <label for="terms" id="check">I agree to the terms and conditions</label>
+        </div>
+        <button type="button" id="loginButton" class="submit">Login</button>
+
+      </form>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="login.js"></script>
+    </div>
+  </body>
+</html>

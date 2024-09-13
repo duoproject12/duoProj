@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Dashboard</title>
+    <link href="bank.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- The Bank Center -->
+    <div class="container">
+      <div class="sidebar">
+        <i id="logo" class="fa-solid fa-landmark"></i>
+        <div class="dropdown">
+          <a href="#" class="user dropdown-toggle"><i class="fa fa-cog" aria-hidden="true"></i>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="#" class="user"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="/Money-Converter/money.html" id="card"><i class="fas fa-recycle"></i></a></li>
+            <li><a href="#" class="logout"><i class="fa-solid fa-right-from-bracket"></i> </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="header">
+          <h1>Your Dashboard</h1>
+          <div class="balance" id="tot">Total Balance: $0</div>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <h3>Total Deposit</h3>
+            <p id="Result1">$0</p>
+            <i class="fas fa-sack-dollar"></i>
+          </div>
+          <div class="card">
+            <h3>Total Withdraw</h3>
+            <p id="Result2">$0</p>
+            <i class="fa-solid fa-money-bill-transfer"></i>
+          </div>
+          <div class="card">
+            <h3>Total Balance</h3>
+            <p id="Result3">$0</p>
+            <i class="fas fa-coins"></i>
+          </div>
+        </div>
+        <div class="transaction">
+          <div class="transaction-content">
+            <div>
+              <h3>Deposit</h3>
+              <input id="deposit" placeholder="Deposit Amount" type="number" />
+              <button id="Deposit">Deposit</button>
+            </div>
+            <div>
+              <h3>Withdraw</h3>
+              <input id="withdraw" placeholder="Withdraw Amount" type="number" />
+              <button id="Withdraw">Withdraw</button>
+            </div>
+          </div>
+          <div id="imgDiv">
+          <img src="https://png.pngtree.com/png-clipart/20210311/original/pngtree-light-blue-grain-credit-card-clip-art-png-image_6025103.png" alt="creditCard" id="creditCard"/>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+    <!-- End Of The Bank Center -->
+    <!-- Money Convert  -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="bank.js" defer></script>
+  </body>
+</html>

@@ -46,11 +46,11 @@ form div {
 }
 
 button {
-  margin-top: 2%;
+  margin-top: 5%;
   border: none;
   border-radius: 30px;
-  font-size: 15px;
-  height: 30px;
+  font-size: 22px;
+  height: 40px;
   width: 100%;
   background: rgba(255, 255, 255, 0.447);
   color: rgba(255, 255, 255, 0.752);
@@ -110,7 +110,7 @@ label a {
 
 #email,
 #password {
-  margin: 10px 10px 10px 0px;
+  margin: 0 10px 10px 0px;
   font-size: larger;
   border-radius: 5%;
   color: rgb(255, 255, 255);
